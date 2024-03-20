@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(106, 106, 106);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+form{
+    width: 400px; 
+    margin: 60px;
+    padding: 40px; 
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px; 
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px; 
+    font-size: larger;
+}
+
+
+
+label {
+    display: block; 
+    margin-bottom: 15px; 
+}
+
+
+input{
+    width: 95%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 3px; 
+}
+
+.buttom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn{
+
+    background-color: rgb(1, 50, 50);
+    color: rgb(255, 255, 255); 
+    font-size: medium;
+    margin-top: 50px;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; /
+}
